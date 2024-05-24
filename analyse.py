@@ -1,6 +1,5 @@
 
 import duckdb
-import pandas
 
 con = duckdb.connect("mydb.duckdb")
 #--- with a one year lag on pm10_concentration for each city
